@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Integration</title>
+  		<link rel="stylesheet" href="../css/style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../js/process.js"></script>
+  
+        
+    </head>
+   
+    <body>  
+	<br>
+	<br>
+	<center><h1>My N<sup>th</sup> Largest Number</h1></center>
+	<hr>
+	<div class="container" id="div-container">
+	<center>
+	<br>
+	<br>
+	<div class="row" >
+	<div class="col-sm-3">
+	<span >Enter element</span>
+	</div>
+	<div class="col-sm-4">
+	<input type="text" id="txt-element"/>
+	</div>
+	
+	<div class="col-sm-1">
+	<input type="button" value="Add" id="btn-add"  onclick="pushElement();"/>
+	</div>
+	<div class="col-sm-2">
+	<input type="button" value="Find" id="btn-generate" />
+	</div>
+	</div>
+	<hr>
+	<div class="row" id="div-sort">
+		<div class="col-lg-14">
+				<span id="lbl-element"></span><br>
+		</div>
+
+	</div>
+	<hr>
+	<br>
+	<div class="row" id="div-generate">
+			
+	<div class="col-sm-3">
+	<span >Enter Position</span>
+	</div>
+	<div class="col-sm-4">
+	<input type="text" id="txt-position"/>
+	</div>
+	
+	<div class="col-sm-1">
+	<input type="button" value="Get Data" id="btn-data"  onclick="popElement();"/>
+	</div>
+	<div class="col-sm-1">
+	</div>
+	
+	</div></center><br>
+	</div>
+	<div id="div-side">
+	<br>
+	<center><span>Count</span><br><br>
+	<span id="lbl-count"></span></center><br>
+	</div>
+	</body>
+	</html>

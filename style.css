@@ -1,0 +1,34 @@
+#div-container
+{
+	margin-top:5%;
+	margin-left:20%;
+	width:55%;
+	background-color:#6b0707;
+}
+.row
+{
+	padding-left:15%;
+	
+}
+#div-sort
+{
+	padding-left:0%;
+}
+span
+{
+	color:white;
+}
+#div-side
+{
+	margin-left:85%;
+	margin-top:-15%;
+	width:10%;
+	height:20%;
+	background-color:black;
+}
+#lbl-count
+{
+	font-weight:bolder;
+	font-size:20px;
+	color:white;
+}
